@@ -116,7 +116,10 @@ const columns: GridColDef<(typeof table1Row)[number]>[] = [
     description: "This column has a value getter and is not sortable.",
     sortable: false,
     width: 160,
-    valueGetter: (value, row) => `${row.firstName || ""} ${row.lastName || ""}`,
+    valueGetter: (value , row) => {
+        console.log(value)
+        return `${row.firstName || ""} ${row.lastName || ""}`
+    },
   },
 ];
 
@@ -234,7 +237,10 @@ const column2: GridColDef<(typeof table2Row)[number]>[] = [
     description: "This column has a value getter and is not sortable.",
     sortable: false,
     width: 160,
-    valueGetter: (value, row) => `${row.firstName || ""} ${row.lastName || ""}`,
+    valueGetter: (value , row) => {
+        console.log(value)
+        return `${row.firstName || ""} ${row.lastName || ""}`
+    },
   },
   {
     field: "age",
