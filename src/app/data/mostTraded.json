@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "NZDUSD",
+    "color": "blue"
+  },
+  {
+    "id": 2,
+    "name": "USDCHF",
+    "color": "skyblue"
+  },
+  {
+    "id": 3,
+    "name": "GBPUSD",
+    "color": "orange"
+  },
+  {
+    "id": 4,
+    "name": "XAUUSD",
+    "color": "yellow"
+  },
+  {
+    "id": 5,
+    "name": "AUDCHF",
+    "color": "teal"
+  },
+  {
+    "id": 1,
+    "name": "AUDNZD",
+    "color": "lightblue"
+  }
+]

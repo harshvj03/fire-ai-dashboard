@@ -1,0 +1,21 @@
+.main-content {
+    margin: 2rem
+}
+
+.charts {
+    margin-left: 1rem;
+    display: flex;
+    height: fit-content;
+    justify-content: space-between;
+}
+
+.cards-container {
+   
+}
+
+.most-traded-section {
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+
+}
